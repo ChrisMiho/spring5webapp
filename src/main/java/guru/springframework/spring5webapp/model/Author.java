@@ -74,7 +74,13 @@ public class Author {
 
         return id != null ? id.equals(author.id) : author.id == null;
     }
-
+    
+    
+    
+    
+    
+    
+    
     @Override
     public int hashCode() {
         return id != null ? id.hashCode() : 0;
